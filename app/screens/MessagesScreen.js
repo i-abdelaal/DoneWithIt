@@ -31,6 +31,7 @@ function MessagesScreen(props) {
                 subTitle={item.description}
                 image={item.image}
                 onPress={() => {}}
+                renderRightActions={() => {}}
             />}
             ItemSeparatorComponent={ListItemSeparator}
             />
