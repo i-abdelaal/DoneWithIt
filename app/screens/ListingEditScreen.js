@@ -25,7 +25,7 @@ const categories = [
 
 function ListingEditScreen(props) {
   return (
-    <Screen>
+    <Screen style={styles.container}>
       <AppForm
         initialValues={{
           title: "",
@@ -61,6 +61,10 @@ function ListingEditScreen(props) {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    padding: 7,
+  },
+});
 
 export default ListingEditScreen;
